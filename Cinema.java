@@ -29,7 +29,7 @@ public class Cinema {
     		{false, false, false}};
     	
     	Cinema cinema = new Cinema(seats);
-    	Boolean value = cinema.isReserved(-1,0);
+    	Boolean value = cinema.isReserved(1,1);
     	System.out.println(value);
     }
 
